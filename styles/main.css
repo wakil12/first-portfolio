@@ -1,7 +1,119 @@
 @import "(normalize.css)";
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Lobster+Two|Prata|Teko');
+body, body * {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 0.625em;
+}
+
 body {
-  width: 40%;
+  font-size: 1.4rem;
+  width: 100%;
   /*text-align: center;*/
-  border: 1px solid;
-  margin: auto;
+  font-family: 'Teko', sans-serif;
+  border: 5px dashed;
+  background: white;
+  padding: 0em 1em 0em;
+  margin: 30px 2px;
+}
+
+.site-header {
+  background: #656a73;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.main-text {
+  text-align: justify;
+  padding: 0 1em;
+  margin: 20px;
+}
+
+.site-header:hover {
+  background: white;
+}
+
+h1, h2 {
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-shadow: green 0 -2px;
+  font-size: 3em;
+  border-radius: 10px;
+  margin: 14px;
+}
+
+.navigation li {
+  padding: 1.0rem;
+  font-size: 1.50rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  list-style: none;
+  flex: 0;
+  border-radius: 10px;
+  font-family: 'Bowlby One SC', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+li:hover {
+  background: white;
+}
+
+.contact {
+  background: #dae4e3;
+  border-radius: 10px;
+  padding: 4px 2em 5px;
+  margin: 15px 2px;
+  font-style: normal;
+  font-family: 'Lobster Two', cursive;
+}
+
+.navigation {
+  background: lightblue;
+  border-radius: 10px;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.hobbies {
+  border-radius: 10px;
+  padding: 0px 25px 0em;
+}
+
+.footer ul {
+  display: flex;
+}
+
+footer {
+  background: gray;
+  border-radius: 10px;
+  padding: 0 21px;
+}
+
+.column {
+  float: right;
+  width: calc(50% - 20px);
+  background: #dae4e3;
+  margin: 10px;
+}
+
+.skills {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 0px 25px 0em;
 }

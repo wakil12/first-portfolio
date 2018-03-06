@@ -29,12 +29,10 @@ body {
 }
 
 .name {
-  float: left;
   margin-top: -72px;
   padding: 4px;
   font-size: 10px;
   background: #328b96;
-  position: relative;
   width: 61px;
   height: 58px;
   border-radius: 50%;
